@@ -14,6 +14,7 @@ body {
     body {
         background-color: black;
         color: white;
+        font-family: 'Ubuntu';
     }
 
     /* Accent color for dark mode */
@@ -29,6 +30,6 @@ body {
 
     /* Bold text color in dark mode */
     body b, body strong {
-        color: white;
+        color: #089BFD;
     }
 }
