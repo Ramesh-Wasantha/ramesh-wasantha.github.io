@@ -16,6 +16,9 @@
 - Managing administration tasks for operational systems, including monitoring, backups, and centralized configuration storage.
 - Established and maintaining IT inventory and technical documentation to ensure streamlined operations and compliance.
 
+**Instructor - Red Hat @ Pace Institute  | April 2024 - Present**
+- Delivering Red Hat courses, specializing in RHCSA certification.
+
 **Senior Executive IT @ Richardson Holdings  | June 2021 - Auguest 2022**
 - Maintained 95% communication rate with team leads, ensuring timely issue resolution.
 - Implemented a group-wide cloud-based ticketing system.
