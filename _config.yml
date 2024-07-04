@@ -2,6 +2,6 @@ title: Ramesh Wasantha
 logo: /assets/img/propic.png
 description:  System Administrator | Red Hat Instructor 
 show_downloads: false
-theme: jekyll-theme-minimal
-
+theme: hacker
+#jekyll-theme-minimal
 
