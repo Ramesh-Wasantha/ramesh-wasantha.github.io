@@ -17,7 +17,7 @@ body {
     }
 
     /* Accent color for dark mode */
-    a, h1, h2, h3, h4, h5, h6, .button {
+    a, h1, h2, h3, h4, h5, h6  {
         color: #089BFD;
     }
 
@@ -27,13 +27,5 @@ body {
         color: #089BFD;
     }
 
-    /* Bold text color in dark mode */
-    body {
-            color: white;
-    }
     
-    /* Bold text color in light mode */
-    body {
-            color: black;
-    }
 }
