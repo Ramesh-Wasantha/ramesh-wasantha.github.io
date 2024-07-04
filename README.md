@@ -9,6 +9,6 @@
 - RHCSA - Red Hat Certified System Administrator
 
 ## Latest Work Experience
-*System Administrator @ Exactpro Systems  (_Auguest 2022 - Present_)*
+System Administrator @ Exactpro Systems  Auguest 2022 - Present
 
-*Senior Executive IT @ Richardson Holdings  (_June 2021 - _Auguest 2022_)**
+Senior Executive IT @ Richardson Holdings  June 2021 - Auguest 2022
