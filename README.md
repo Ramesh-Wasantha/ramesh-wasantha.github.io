@@ -3,7 +3,7 @@
 #### Technical Skills: Linux, Windows, AWS, Ansible
 
 ## Education
-- BEng.Computer Networking      | London Metropolitan University
+- BEng.Computer Networking  -| London Metropolitan University
 
 ## Certification
 - RHCE  - Red Hat Certified System Engineer
@@ -12,4 +12,4 @@
 ## Work Experience
 **System Administrator @ Exactpro Systems  (_Auguest 2022 - Present_)**
 
-**Senior Executive IT @ Richardson Holdings  (_May 2021 - September 2022)**
+**Senior Executive IT @ Richardson Holdings  (_May 2021 - September 2022_)**
