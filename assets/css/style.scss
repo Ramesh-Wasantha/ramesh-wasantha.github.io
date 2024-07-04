@@ -27,5 +27,8 @@ body {
         color: #089BFD;
     }
 
-    
+    /* Bold text color in dark mode */
+    body b, body strong {
+        color: white;
+    }
 }
