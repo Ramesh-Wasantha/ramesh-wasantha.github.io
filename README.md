@@ -1,4 +1,4 @@
-# System Administrator | Red Hat Instructor 
+# System Administrator | Instructor 
 #### Technical Skills: Linux, Windows, AWS, Ansible
 
 ## Education
