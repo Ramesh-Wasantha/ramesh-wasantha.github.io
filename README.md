@@ -3,7 +3,7 @@
 #### Technical Skills: Linux, Windows, AWS, Ansible
 
 ## Education
-- BEng.Computer Networking | London Metropolitan University - UK
+- BEng.Computer Networking      | London Metropolitan University
 
 ## Certification
 - RHCE  - Red Hat Certified System Engineer
