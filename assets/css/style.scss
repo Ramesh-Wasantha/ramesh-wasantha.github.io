@@ -27,7 +27,13 @@ body {
         color: #089BFD;
     }
 
+    /* Bold text color in dark mode */
     body {
-        font-weight: bold;
+            color: white;
+    }
+    
+    /* Bold text color in light mode */
+    body {
+            color: black;
     }
 }
