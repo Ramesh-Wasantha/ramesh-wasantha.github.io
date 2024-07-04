@@ -3,6 +3,27 @@
 
 @import "{{ site.theme }}";
 
+/* Default light mode styles */
 body {
-    color:red;
+    background-color: white;
+    color: black;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    /* Accent color for dark mode */
+    a, h1, h2, h3, h4, h5, h6, .button {
+        color: red;
+    }
+
+    /* Additional dark mode styles as needed */
+    .navbar, .footer {
+        background-color: #333;
+        color: white;
+    }
 }
