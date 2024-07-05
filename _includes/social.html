@@ -10,5 +10,10 @@
         <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" style="width:32px;height:32px;">
       </a>
     {% endif %}
-    <!-- Add more social media buttons as needed -->
+    {% if site.social.credly %}
+    <a href="{{ site.social.credly }}" target="_blank" style="margin-right: 10px;">
+      <img src="PATH_TO_YOUR_CREDLY_ICON" alt="Credly" style="width:32px;height:32px;">
+    </a>
+  {% endif %}
+  <!-- Add more social media buttons as needed -->
   </div>
