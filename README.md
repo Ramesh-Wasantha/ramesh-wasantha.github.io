@@ -4,11 +4,11 @@
 ## Education
 - BEng.Computer Networking  | London Metropolitan University
 
-## Certification
+## Licenses & Certifications
 - RHCE  - Red Hat Certified System Engineer
 - RHCSA - Red Hat Certified System Administrator
 
-## Latest Work Experience
+## Latest Work Experience           |       Total : 09 Years
 **System Administrator @ Exactpro Systems  | Auguest 2022 - Present**
 - Providing technical support to a global user base, addressing issues at both L1 and L2 levels.
 - Maintaining and optimizing computer systems, servers, and network equipment to ensure seamless operations and high performance.
