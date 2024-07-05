@@ -1,6 +1,6 @@
 # System Administrator | Instructor 
 #### Technical Skills: Linux, Windows, Networking, AWS, Scripting & Automation
-
+{% include profile.html %}
 ## Education
 - BEng.Computer Networking  | London Metropolitan University
 
