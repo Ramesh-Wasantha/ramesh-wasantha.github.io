@@ -1,5 +1,5 @@
 # System Administrator | Instructor 
-#### Technical Skills: Linux, Windows, AWS, Ansible
+#### Technical Skills: Linux, Windows, Networking, AWS, Scripting & Automation
 
 ## Education
 - BEng.Computer Networking  | London Metropolitan University
