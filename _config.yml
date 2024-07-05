@@ -8,3 +8,9 @@ social:
   youtube: https://www.youtube.com/channel/your-channel-id
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ramesh-wasantha.github.io" # the base hostname & protocol for your site
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: default
