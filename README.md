@@ -19,7 +19,7 @@ Technical Skills: Linux, Windows, Networking, AWS, Scripting & Automation
 **Instructor - Red Hat @ Pace Institute  | April 2024 - Present**
 - Delivering Red Hat courses, specializing in RHCSA certification.
 
-**Senior Executive IT @       | June 2021 - Auguest 2022**
+**Senior Executive IT @ Richardson Holdings  | June 2021 - Auguest 2022**
 - Maintained 95% communication rate with team leads, ensuring timely issue resolution.
 - Implemented a group-wide cloud-based ticketing system.
 - Upgraded and managed a robust, user-friendly email service.
