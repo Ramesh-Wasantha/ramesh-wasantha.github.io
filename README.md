@@ -10,11 +10,10 @@ Technical Skills: Linux, Windows, Networking, AWS, Scripting & Automation
 
 ## Latest Work Experience           |       Total : 10 Years
 **System Administrator @ Alburj Holdings  | December 2024 - Present**
-- Providing technical support to a global user base, addressing issues at both L1 and L2 levels.
-- Maintaining and optimizing computer systems, servers, and network equipment to ensure seamless operations and high performance.
-- Implementing and supporting IT infrastructures, ensuring efficient functionality for various projects.
-- Managing administration tasks for operational systems, including monitoring, backups, and centralized configuration storage.
-- Established and maintaining IT inventory and technical documentation to ensure streamlined operations and compliance.
+- Overseeing and maintaining the organization’s core IT infrastructure, including physical and virtual servers, network devices, firewalls and storage systems across multiple sites. 
+- Providing comprehensive Level 2 and Level 3 technical support, ensuring minimal downtime and prompt resolution of system and network issues. 
+- Designing, implementing, and maintaining high-availability and disaster recovery solutions to support critical business operations. 
+- Evaluating and deploying new IT solutions based on business requirements, ensuring scalability, security, and performance.
 
 **Instructor - Red Hat @ Pace Institute  | April 2024 - Present**
 - Delivering Red Hat courses, specializing in RHCSA certification.
