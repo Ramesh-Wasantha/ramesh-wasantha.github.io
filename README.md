@@ -9,7 +9,7 @@ Technical Skills: Linux, Windows, Networking, AWS, Scripting & Automation
 - RHCSA - Red Hat Certified System Administrator
 
 ## Latest Work Experience           |       Total : 10 Years
-**System Administrator @ Alburj Holdings  | Auguest 2022 - Present**
+**System Administrator @ Alburj Holdings  | December 2024 - Present**
 - Providing technical support to a global user base, addressing issues at both L1 and L2 levels.
 - Maintaining and optimizing computer systems, servers, and network equipment to ensure seamless operations and high performance.
 - Implementing and supporting IT infrastructures, ensuring efficient functionality for various projects.
