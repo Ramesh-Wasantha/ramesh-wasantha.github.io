@@ -9,7 +9,7 @@ Technical Skills: Linux, Windows, Networking, AWS, Scripting & Automation
 - RHCSA - Red Hat Certified System Administrator
 
 ## Latest Work Experience           |       Total : 10 Years
-**System Administrator @ Exactpro Systems  | Auguest 2022 - Present**
+**System Administrator @ Alburj Holdings  | Auguest 2022 - Present**
 - Providing technical support to a global user base, addressing issues at both L1 and L2 levels.
 - Maintaining and optimizing computer systems, servers, and network equipment to ensure seamless operations and high performance.
 - Implementing and supporting IT infrastructures, ensuring efficient functionality for various projects.
@@ -19,7 +19,7 @@ Technical Skills: Linux, Windows, Networking, AWS, Scripting & Automation
 **Instructor - Red Hat @ Pace Institute  | April 2024 - Present**
 - Delivering Red Hat courses, specializing in RHCSA certification.
 
-**System Administrator @ Exactpro Systems  | Auguest 2022 - Present**
+**System Administrator @ Exactpro Systems  | Auguest 2022 - February 2024**
 - Maintained 95% communication rate with team leads, ensuring timely issue resolution.
 - Implemented a group-wide cloud-based ticketing system.
 - Upgraded and managed a robust, user-friendly email service.
