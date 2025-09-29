@@ -8,7 +8,7 @@ Technical Skills: Linux, Windows, Networking, AWS, Scripting & Automation
 - RHCE  - Red Hat Certified System Engineer
 - RHCSA - Red Hat Certified System Administrator
 
-## Latest Work Experience           |       Total : 09 Years
+## Latest Work Experience           |       Total : 10 Years
 **System Administrator @ Exactpro Systems  | Auguest 2022 - Present**
 - Providing technical support to a global user base, addressing issues at both L1 and L2 levels.
 - Maintaining and optimizing computer systems, servers, and network equipment to ensure seamless operations and high performance.
@@ -19,7 +19,7 @@ Technical Skills: Linux, Windows, Networking, AWS, Scripting & Automation
 **Instructor - Red Hat @ Pace Institute  | April 2024 - Present**
 - Delivering Red Hat courses, specializing in RHCSA certification.
 
-**Senior Executive IT @ Richardson Holdings  | June 2021 - Auguest 2022**
+**System Administrator @ Exactpro Systems  | Auguest 2022 - Present**
 - Maintained 95% communication rate with team leads, ensuring timely issue resolution.
 - Implemented a group-wide cloud-based ticketing system.
 - Upgraded and managed a robust, user-friendly email service.
