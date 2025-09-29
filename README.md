@@ -1,5 +1,5 @@
 # System Administrator | Instructor 
-Technical Skills: Linux, Windows, Networking, AWS, Scripting & Automation
+Technical Skills: Linux, Windows, AWS, Ansible, Kubernetes, Git, Zabbix, Synology, Networking. 
 
 ## Education
 - BEng.Computer Networking  | London Metropolitan University
