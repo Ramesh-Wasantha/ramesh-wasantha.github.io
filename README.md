@@ -8,7 +8,7 @@ Building secure, highly available, and automated infrastructure across **Linux, 
 
 ## Core Skills
 
-**Systems & Virtualization:** Linux · Windows Server · VMware · Proxmox · Enterprise Servers  
+**Systems & Virtualization:** Linux · VMware · Proxmox · Enterprise Servers  
 **Cloud & DevOps:** AWS · Docker · Kubernetes · CI/CD · Git  
 **Automation:** Ansible · Bash · Infrastructure Automation · Configuration Management  
 **Monitoring & Observability:** Prometheus · Grafana · Zabbix  
@@ -17,11 +17,6 @@ Building secure, highly available, and automated infrastructure across **Linux, 
 ---
 
 ## Featured Projects
-
-### Kubernetes Infrastructure Deployment
-Designed and deployed Kubernetes-based infrastructure for containerized workloads with a focus on scalability, reliability, monitoring, and production readiness.
-
-**Technologies:** Kubernetes · Docker · Linux · Ansible · Prometheus · Grafana
 
 ### Enterprise IT Infrastructure Upgrade
 Delivered an infrastructure modernization project covering Synology High Availability, redundant Active Directory services, centralized monitoring, SAP server infrastructure, and core network improvements.
