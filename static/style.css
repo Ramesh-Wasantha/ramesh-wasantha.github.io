@@ -230,3 +230,71 @@
   color: color-mix(in srgb, var(--foreground) 52%, transparent);
   font-size: 0.78rem;
 }
+
+/* Professional phosphor-terminal palette enhancements */
+body {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(57, 229, 140, 0.035), transparent 28rem),
+    var(--background);
+}
+
+.header__logo a,
+.logo__cursor,
+.terminal-prompt,
+.section-prompt,
+.page-prompt {
+  text-shadow: 0 0 12px rgba(57, 229, 140, 0.16);
+}
+
+a:not(.button) {
+  text-decoration-color: color-mix(in srgb, var(--accent) 58%, transparent);
+  text-underline-offset: 3px;
+}
+
+a:not(.button):hover {
+  color: var(--accent-secondary);
+  text-decoration-color: var(--accent-secondary);
+}
+
+.hero-role span,
+.post-tags a {
+  color: var(--accent-secondary);
+}
+
+.button,
+button,
+input[type="submit"] {
+  border-color: color-mix(in srgb, var(--accent) 70%, var(--border));
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover {
+  border-color: var(--accent-secondary);
+  color: var(--accent-secondary);
+}
+
+.portfolio-hero,
+.skill-card,
+.post.on-list {
+  background-color: color-mix(in srgb, var(--panel) 92%, transparent);
+}
+
+.credential-strip span {
+  border-color: var(--border);
+  background: color-mix(in srgb, var(--panel) 90%, transparent);
+}
+
+hr {
+  border-color: var(--border);
+}
+
+code:not(pre code) {
+  color: var(--accent-secondary);
+  background: color-mix(in srgb, var(--panel) 92%, transparent);
+}
+
+pre {
+  border-color: var(--border);
+  box-shadow: inset 3px 0 0 color-mix(in srgb, var(--accent) 55%, transparent);
+}

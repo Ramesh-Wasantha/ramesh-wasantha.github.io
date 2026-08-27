@@ -1,8 +1,18 @@
 :root {
-  --background: #0b0f14;
-  --foreground: #d6dde6;
-  --accent: #58a6ff;
+  /* Professional terminal-inspired palette */
+  --background: #0a0e0d;
+  --foreground: #d7e0da;
+  --accent: #39e58c;
+  --accent-secondary: #69d9e8;
+  --muted: #7f9188;
+  --panel: #101715;
+  --border: #21312b;
   --font-size: 1rem;
   --line-height: 1.62em;
   --radius: 4px;
+}
+
+::selection {
+  background: rgba(57, 229, 140, 0.26);
+  color: #f3fff8;
 }
