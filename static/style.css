@@ -298,3 +298,155 @@ pre {
   border-color: var(--border);
   box-shadow: inset 3px 0 0 color-mix(in srgb, var(--accent) 55%, transparent);
 }
+
+/* =========================================================
+   HERO PROFILE PHOTO - PROFESSIONAL TERMINAL STYLE
+   ========================================================= */
+
+/* Give the photo proper space in the hero */
+.hero-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(230px, 300px);
+  gap: clamp(32px, 5vw, 64px);
+  align-items: center;
+}
+
+/* Photo container */
+.hero-photo-wrap {
+  position: relative;
+  width: clamp(220px, 24vw, 290px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: auto;
+  isolation: isolate;
+}
+
+/* Soft terminal-colored background behind the cutout */
+.hero-photo-wrap::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+
+  width: 92%;
+  height: 82%;
+  left: 4%;
+  bottom: 2%;
+
+  border-radius: 42% 42% 24% 24% / 32% 32% 18% 18%;
+
+  background:
+    radial-gradient(
+      circle at 50% 35%,
+      rgba(57, 229, 140, 0.12) 0%,
+      rgba(57, 229, 140, 0.05) 42%,
+      rgba(16, 23, 21, 0.90) 76%,
+      rgba(16, 23, 21, 0.45) 100%
+    );
+
+  border: 1px solid rgba(57, 229, 140, 0.12);
+
+  box-shadow:
+    0 18px 45px rgba(0, 0, 0, 0.30),
+    0 0 35px rgba(57, 229, 140, 0.035);
+}
+
+/* Actual transparent PNG */
+.hero-photo {
+  position: relative;
+  z-index: 1;
+
+  display: block;
+
+  width: 100% !important;
+  height: auto !important;
+  max-width: 290px;
+
+  object-fit: contain;
+
+  /* Remove old square styling */
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+
+  /* Natural separation from dark background */
+  filter:
+    drop-shadow(0 14px 18px rgba(0, 0, 0, 0.38))
+    saturate(0.96)
+    contrast(1.02);
+
+  transition:
+    transform 0.2s ease,
+    filter 0.2s ease;
+}
+
+/* Very subtle interaction - optional */
+.hero-photo-wrap:hover .hero-photo {
+  transform: translateY(-3px);
+
+  filter:
+    drop-shadow(0 18px 24px rgba(0, 0, 0, 0.42))
+    saturate(1)
+    contrast(1.03);
+}
+
+
+/* =========================================================
+   HERO PANEL - SOFTER THAN PURE BLACK
+   ========================================================= */
+
+.portfolio-hero {
+  background:
+    radial-gradient(
+      circle at 88% 35%,
+      rgba(57, 229, 140, 0.045),
+      transparent 28%
+    ),
+    linear-gradient(
+      145deg,
+      #101816 0%,
+      #0d1412 50%,
+      #0b1110 100%
+    );
+
+  border: 1px solid rgba(57, 229, 140, 0.14);
+
+  box-shadow:
+    0 18px 50px rgba(0, 0, 0, 0.22);
+
+  border-radius: 10px;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 760px) {
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .hero-photo-wrap {
+    order: -1;
+
+    width: min(230px, 72vw);
+    margin: 0 auto 8px;
+  }
+
+  .hero-photo {
+    width: 100% !important;
+    max-width: 230px;
+  }
+
+  .hero-photo-wrap::before {
+    width: 90%;
+    height: 80%;
+    left: 5%;
+  }
+}
