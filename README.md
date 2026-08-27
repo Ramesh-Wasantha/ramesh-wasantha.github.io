@@ -1,4 +1,4 @@
-# System & Deployment Engineer | DevOps & AI Infrastructure
+# System & Deployment Engineer | Red Hat Instructor
 
 Building secure, highly available, and automated infrastructure across **Linux, cloud, Kubernetes, and AI platforms**.
 
