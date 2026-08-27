@@ -1,0 +1,232 @@
+/* Portfolio refinements layered on top of panr/hugo-theme-terminal. */
+
+.container.center {
+  max-width: 1080px;
+  padding: 32px;
+}
+
+.content {
+  width: 100%;
+}
+
+.portfolio-hero {
+  margin: 28px 0 48px;
+  padding: clamp(24px, 5vw, 48px);
+  border: 1px solid color-mix(in srgb, var(--accent) 48%, transparent);
+  background:
+    linear-gradient(135deg, color-mix(in srgb, var(--accent) 8%, transparent), transparent 45%),
+    color-mix(in srgb, var(--foreground) 2.5%, transparent);
+  box-shadow: 10px 10px 0 color-mix(in srgb, var(--accent) 9%, transparent);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 36px;
+  align-items: center;
+}
+
+.terminal-prompt,
+.section-prompt,
+.page-prompt {
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  line-height: 1.05;
+  margin: 8px 0 14px;
+  letter-spacing: -0.045em;
+}
+
+.hero-role {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+
+.hero-role span {
+  color: var(--accent);
+}
+
+.hero-copy {
+  max-width: 760px;
+  color: color-mix(in srgb, var(--foreground) 86%, transparent);
+  font-size: 1.04rem;
+  margin: 0;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.hero-actions .button {
+  margin: 0;
+}
+
+.hero-photo-wrap {
+  width: 156px;
+}
+
+.hero-photo {
+  width: 156px;
+  height: 156px;
+  object-fit: cover;
+  border-width: 3px;
+  padding: 4px;
+  margin: 0;
+  filter: saturate(0.9) contrast(1.03);
+}
+
+.credential-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 34px;
+  padding-top: 22px;
+  border-top: 1px dashed color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.credential-strip span {
+  padding: 7px 10px;
+  border: 1px solid color-mix(in srgb, var(--foreground) 15%, transparent);
+  background: color-mix(in srgb, var(--foreground) 3%, transparent);
+  font-size: 0.88rem;
+}
+
+.skill-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 20px 0 28px;
+}
+
+.skill-card {
+  padding: 18px 20px;
+  border: 1px solid color-mix(in srgb, var(--foreground) 14%, transparent);
+  background: color-mix(in srgb, var(--foreground) 2%, transparent);
+}
+
+.skill-card h3 {
+  color: var(--accent);
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+.skill-card p {
+  margin: 0;
+  color: color-mix(in srgb, var(--foreground) 82%, transparent);
+}
+
+.focus-line {
+  margin: 24px 0 54px;
+  padding: 14px 16px;
+  border-left: 3px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 5%, transparent);
+}
+
+.projects-prompt {
+  margin-top: 16px;
+}
+
+.posts {
+  display: grid;
+  gap: 16px;
+}
+
+.post.on-list {
+  padding: 24px;
+  margin: 0;
+  border: 1px solid color-mix(in srgb, var(--foreground) 14%, transparent) !important;
+  background: color-mix(in srgb, var(--foreground) 2%, transparent);
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.post.on-list:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--accent) 55%, transparent) !important;
+  background: color-mix(in srgb, var(--accent) 4%, transparent);
+}
+
+.post.on-list .post-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.post.on-list .post-content {
+  color: color-mix(in srgb, var(--foreground) 82%, transparent);
+}
+
+.post-meta:empty {
+  display: none;
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 12px 0;
+}
+
+.post-tags a {
+  text-decoration: none;
+}
+
+.content h2 {
+  margin-top: 38px;
+}
+
+.content > .post h2,
+.content > .post-content h2 {
+  padding-top: 4px;
+}
+
+.content p,
+.post-content p,
+.post-content li {
+  max-width: 82ch;
+}
+
+.footer {
+  margin-top: 64px;
+}
+
+@media (max-width: 760px) {
+  .container.center {
+    padding: 20px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-photo-wrap {
+    order: -1;
+    width: 112px;
+  }
+
+  .hero-photo {
+    width: 112px;
+    height: 112px;
+  }
+
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-hero {
+    box-shadow: 6px 6px 0 color-mix(in srgb, var(--accent) 9%, transparent);
+  }
+}
+
+.portfolio-footer-note {
+  width: 100%;
+  margin-top: 12px;
+  color: color-mix(in srgb, var(--foreground) 52%, transparent);
+  font-size: 0.78rem;
+}

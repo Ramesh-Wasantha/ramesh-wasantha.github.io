@@ -2,7 +2,7 @@ title: Ramesh Wasantha
 logo: /assets/img/propic.png
 description:  Hi👋  I'm a Linux Enthusiast
 show_downloads: false
-theme: terminal
+theme: jekyll-theme-minimal
 social:
   linkedin: https://www.linkedin.com/in/rwasantha/
   credly: https://www.credly.com/users/ramesh-wasantha/badges

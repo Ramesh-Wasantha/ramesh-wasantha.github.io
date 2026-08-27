@@ -1,85 +1,68 @@
-# System & Deployment Engineer | Red Hat Instructor
+# Ramesh Wasantha — Hugo Terminal Portfolio
 
-Building secure, highly available, and automated infrastructure across **Linux, cloud, Kubernetes, and AI platforms**.
+This is a Hugo-based replacement for the previous Jekyll Minimal portfolio. It uses the **panr/hugo-theme-terminal v4.2.3** theme with a professional dark blue/cyan customization for a DevOps / Platform / AI Infrastructure portfolio.
 
-**10+ Years of Experience** · **RHCE** · **RHCSA** · **AWS Solutions Architect – Associate** · **CCNA**
+## What changed
 
----
+- Replaced the old Jekyll `_config.yml` setup with `hugo.toml`.
+- Reorganized the portfolio into Home, Projects, Experience, Skills, Certifications, About, and Contact.
+- Converted the long online-CV layout into a recruiter-friendly project portfolio.
+- Added a GitHub Actions workflow that builds Hugo and deploys the generated `public/` site to GitHub Pages.
+- Added a custom Terminal color palette and portfolio-specific CSS.
 
-## Core Skills
+## Repository setup
 
-**Systems & Virtualization:** Linux · VMware · Proxmox · Enterprise Servers  
-**Cloud & DevOps:** AWS · Docker · Kubernetes · CI/CD · Git  
-**Automation:** Ansible · Bash · Infrastructure Automation · Configuration Management  
-**Monitoring & Observability:** Prometheus · Grafana · Zabbix  
-**Networking & Security:** TCP/IP · DNS · DHCP · VPN · Firewalls · System Hardening · High Availability · Backup & Disaster Recovery
+Copy the contents of this folder into your `ramesh-wasantha.github.io` repository.
 
----
+### 1. Remove the old Jekyll theme config
 
-## Featured Projects
+Delete the old `_config.yml` once you switch to Hugo. The new configuration is `hugo.toml`.
 
-### Enterprise IT Infrastructure Upgrade
-Delivered an infrastructure modernization project covering Synology High Availability, redundant Active Directory services, centralized monitoring, SAP server infrastructure, and core network improvements.
+### 2. Keep your profile photo (optional)
 
-**Technologies:** Synology HA · Active Directory · Virtualization · Networking · Monitoring · Disaster Recovery
+Your old Jekyll config referenced:
 
-### Infrastructure Monitoring Platform
-Implemented centralized monitoring and observability using Prometheus and Grafana to improve infrastructure visibility, proactive incident detection, and performance troubleshooting.
+`/assets/img/propic.png`
 
-**Technologies:** Prometheus · Grafana · Linux · Infrastructure Monitoring
+If that image already exists in your repository, move it to:
 
-### Synology High Availability Cluster
-Implemented a Synology High Availability cluster with automated failover to improve storage resilience, service availability, and business continuity.
+`static/assets/img/propic.png`
 
-**Technologies:** Synology · High Availability · Storage · Backup · Disaster Recovery
+The home page checks for this file automatically. If it is missing, the site still renders correctly without a photo.
 
-### Cloud-Based IT Asset Management
-Implemented a centralized cloud-based IT asset management platform for asset tracking, assignment, inventory, warranty, and audit management.
+### 3. Enable GitHub Actions for Pages
 
-**Technologies:** Cloud Infrastructure · IT Asset Management · Linux · Database · Web Services
+In GitHub:
 
----
+**Repository → Settings → Pages → Build and deployment → Source → GitHub Actions**
 
-## Experience
+Then push these files to `main`. The workflow in `.github/workflows/hugo.yml` builds and deploys the site automatically.
 
-### System & Deployment Engineer — Future OS
-**December 2025 – Present | Dubai, UAE**
+## Local preview
 
-- Design and manage Linux and Windows Server infrastructure, virtualization platforms, and containerized workloads supporting enterprise and AI environments.
-- Automate infrastructure provisioning, configuration management, and operational workflows to improve consistency, efficiency, and reliability.
-- Manage networking, security, monitoring, backup, high availability, and Tier-3 infrastructure support while advancing DevOps, CI/CD, and cloud-native practices.
+Install Hugo Extended and Go, then run:
 
-### Red Hat Instructor — Pace Institute
-**April 2024 – Present | Colombo, Sri Lanka**
+```bash
+hugo mod get github.com/panr/hugo-theme-terminal/v4@v4.2.3
+hugo server -D
+```
 
-- Deliver instructor-led Red Hat Enterprise Linux training focused on RHCSA objectives, practical system administration, troubleshooting, and certification preparation.
+Open `http://localhost:1313/`.
 
-### System Administrator — Alburj Holdings
-**December 2024 – November 2025 | Dubai, UAE**
+## Main files
 
-- Managed physical and virtual servers, networking, firewalls, storage, backup, and business-critical infrastructure across multiple sites.
-- Implemented high-availability, disaster-recovery, monitoring, patching, and security solutions to improve infrastructure resilience.
-- Provided Level 2/3 technical support and supported infrastructure upgrades, troubleshooting, and deployment of new IT solutions.
+- `hugo.toml` — site configuration and navigation
+- `content/_index.md` — homepage / hero section
+- `content/projects/` — featured projects
+- `content/experience.md` — work experience
+- `content/skills.md` — technical skills
+- `content/certifications.md` — certifications
+- `content/about.md` — professional summary and education
+- `content/contact.md` — social/contact links
+- `static/terminal.css` — Terminal theme palette
+- `static/style.css` — portfolio styling overrides
+- `.github/workflows/hugo.yml` — GitHub Pages deployment
 
----
+## Before publishing
 
-## Licenses & Certifications
-
-- **Red Hat Certified Engineer (RHCE)**
-- **Red Hat Certified System Administrator (RHCSA)**
-- **AWS Certified Solutions Architect – Associate**
-- **Cisco Certified Network Associate (CCNA)**
-- **Certified Network Security Specialist (CNSS)**
-
----
-
-## Education
-
-**BEng (Hons) in Computer Networking**  
-London Metropolitan University, United Kingdom
-
----
-
-## Professional Focus
-
-Linux Infrastructure · Kubernetes · DevOps · Cloud · Automation · Platform Engineering · AI Infrastructure · Observability · High Availability · Infrastructure Security
+Review the dates and project descriptions to make sure they match your CV and LinkedIn exactly.

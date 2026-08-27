@@ -1,0 +1,86 @@
+baseURL = "https://ramesh-wasantha.github.io/"
+languageCode = "en-us"
+title = "Ramesh Wasantha"
+enableRobotsTXT = true
+enableGitInfo = false
+
+[pagination]
+  pagerSize = 6
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  contentTypeName = "projects"
+  showMenuItems = 6
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  autoCover = false
+  showLastUpdated = false
+  readingTime = false
+  oneHeadingSize = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Ramesh Wasantha"
+
+    [languages.en.params]
+      subtitle = "System & Deployment Engineer | DevOps | AI Infrastructure"
+      owner = "Ramesh Wasantha"
+      keywords = "Linux, Kubernetes, DevOps, AWS, Ansible, Platform Engineering, AI Infrastructure, Prometheus, Grafana, VMware, Proxmox"
+      copyright = "© 2026 Ramesh Wasantha"
+      menuMore = "More"
+      readMore = "View project"
+      readOtherPosts = "Other projects"
+      newerPosts = "Newer"
+      olderPosts = "Older"
+      missingContentMessage = "Page not found."
+      missingBackButtonLabel = "Back to home"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "ramesh@infra:~$"
+        logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects/"
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "experience"
+        name = "Experience"
+        url = "/experience/"
+        weight = 20
+      [[languages.en.menu.main]]
+        identifier = "skills"
+        name = "Skills"
+        url = "/skills/"
+        weight = 30
+      [[languages.en.menu.main]]
+        identifier = "certifications"
+        name = "Certifications"
+        url = "/certifications/"
+        weight = 40
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 50
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact/"
+        weight = 60
+
+[module]
+  [[module.imports]]
+    path = "github.com/panr/hugo-theme-terminal/v4"
