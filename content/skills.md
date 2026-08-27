@@ -21,4 +21,4 @@ description = "Core infrastructure, DevOps, automation, monitoring, networking, 
 `TCP/IP` `DNS` `DHCP` `VPN` `Firewalls` `System Hardening` `High Availability` `Backup & Disaster Recovery`
 
 ## Professional Focus
-`Platform Engineering` `AI Infrastructure` `Cloud-Native Infrastructure` `Reliability` `Automation` `Observability`
+`Platform Engineering` `AI Infrastructure` `Cloud-Native Infrastructure` `Reliability` `Automation` 

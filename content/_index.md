@@ -24,7 +24,6 @@ framed = false
     <span><strong>RHCE</strong></span>
     <span><strong>RHCSA</strong></span>
     <span><strong>AWS SAA</strong></span>
-    <span><strong>CCNA</strong></span>
   </div>
 </div>
 
@@ -51,7 +50,7 @@ framed = false
 </div>
 
 <div class="focus-line">
-  <strong>Current focus:</strong> Kubernetes · DevOps · Platform Engineering · AI Infrastructure · Automation · Observability
+  <strong>Current focus:</strong> Kubernetes · DevOps · Platform Engineering · AI Infrastructure · Automation 
 </div>
 
 <p class="section-prompt projects-prompt">ramesh@infra:~$ ls ~/featured-projects</p>
