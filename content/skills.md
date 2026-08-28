@@ -7,27 +7,27 @@ description = "Core infrastructure, DevOps, automation, monitoring, networking, 
 
 ## Core Engineering Expertise
 
-### Systems & Infrastructure
+### - Systems & Infrastructure
 `Linux` `RHEL` `Ubuntu` `Windows Server` `macOS` `Enterprise Servers` `Storage` `NAS`
 
 Enterprise infrastructure administration across Linux and Windows environments, with a focus on availability, performance, lifecycle management, and production reliability.
 
-### Cloud, Containers & DevOps
+### - Cloud, Containers & DevOps
 `AWS` `Docker` `Kubernetes` `Git` `CI/CD` `Cloud-Native Infrastructure`
 
 Building and supporting containerized and cloud-native infrastructure while applying modern DevOps practices across deployment and operational workflows.
 
-### Automation & Configuration Management
+### - Automation & Configuration Management
 `Ansible` `Bash` `Infrastructure Automation` `Configuration Management`
 
 Automating infrastructure provisioning, configuration, administration, and repeatable operational tasks to improve consistency and reduce manual intervention.
 
-### Monitoring & Observability
+### - Monitoring & Observability
 `Prometheus` `Grafana` `Zabbix` `Infrastructure Monitoring` `Alerting`
 
 Implementing monitoring and observability platforms for infrastructure health, resource utilization, performance analysis, alerting, and proactive incident detection.
 
-### Networking & Connectivity
+### - Networking & Connectivity
 `TCP/IP` `DNS` `DHCP` `VLAN` `VPN` `Routing & Switching` `Firewalls`
 
 Managing enterprise network services and connectivity across server, virtualization, storage, and distributed infrastructure environments.
