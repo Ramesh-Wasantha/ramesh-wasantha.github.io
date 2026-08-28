@@ -4,16 +4,30 @@ description = "Infrastructure modernization covering Synology HA, redundant Acti
 tags = ["Synology HA", "Active Directory", "Virtualization", "Networking", "Monitoring", "Disaster Recovery"]
 +++
 
-Delivered an enterprise infrastructure modernization initiative focused on availability, resilience, visibility, and platform readiness.
+# Enterprise IT Infrastructure Upgrade
 
-### Scope
+Modernized core IT infrastructure to improve availability, performance, resilience, and operational visibility across critical business services.
 
-- Deployed Synology High Availability for resilient storage services.
-- Implemented redundant Active Directory services.
-- Introduced centralized infrastructure monitoring.
-- Prepared server infrastructure for an SAP version upgrade.
-- Improved the core network design to support a more reliable infrastructure foundation.
+## Challenge
 
-### Technology Areas
+The existing infrastructure required improvements in availability, monitoring, storage resilience, server capacity, and core network design to better support business-critical applications and future growth.
 
-`Synology HA` `Active Directory` `Virtualization` `Networking` `Monitoring` `Disaster Recovery`
+## Solution
+
+Designed and implemented a multi-area infrastructure upgrade covering high availability, directory services, monitoring, server infrastructure, storage, and network architecture.
+
+Key improvements included:
+
+- Deployed a Synology High Availability cluster to improve storage resilience and failover capability.
+- Implemented redundant Active Directory services to improve authentication availability and fault tolerance.
+- Introduced centralized infrastructure monitoring for proactive health, performance, and availability tracking.
+- Designed and deployed server infrastructure required for a major SAP version upgrade.
+- Redesigned the core network architecture to improve reliability, scalability, and overall infrastructure performance.
+
+## Key Technologies
+
+`Synology NAS` `Active Directory` `Windows Server` `SUSE Linux` `VMware ESXi` `Networking` `Monitoring` `Backup` `Disaster Recovery`
+
+## Outcomess
+
+Improved infrastructure resilience, service availability, operational visibility, and scalability while reducing single points of failure across critical systems.
