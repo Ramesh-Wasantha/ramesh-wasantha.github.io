@@ -8,7 +8,7 @@ framed = false
     <div>
       <p class="terminal-prompt">ramesh@infra:~$ whoami</p>
       <h1 class="hero-title">Ramesh Wasantha</h1>
-      <p class="hero-role">System & Deployment Engineer <span>·</span> Red Hat Instructor</p>
+      <p class="hero-role">System Engineer <span>·</span> Red Hat Instructor</p>
       <p class="hero-copy">Building secure, highly available, and automated infrastructure across <strong>Linux, cloud, Kubernetes, and AI platforms</strong>.</p>
       <div class="hero-actions">
         <a class="button" href="/projects/">View Projects</a>
