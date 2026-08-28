@@ -4,10 +4,6 @@ description = "Infrastructure modernization covering Synology HA, redundant Acti
 tags = ["Synology NAS", "Active Directory", "Virtualization", "Networking", "Monitoring", "Disaster Recovery"]
 +++
 
-# Enterprise IT Infrastructure Upgrade
-
-Modernized core IT infrastructure to improve availability, performance, resilience, and operational visibility across critical business services.
-
 ## Challenge
 
 The existing infrastructure required improvements in availability, monitoring, storage resilience, server capacity, and core network design to better support business-critical applications and future growth.
