@@ -1,7 +1,7 @@
 +++
 title = "Enterprise IT Infrastructure Upgrade"
 description = "Infrastructure modernization covering Synology HA, redundant Active Directory, centralized monitoring, SAP server infrastructure, and core network improvements."
-tags = ["Synology HA", "Active Directory", "Virtualization", "Networking", "Monitoring", "Disaster Recovery"]
+tags = ["Synology NAS", "Active Directory", "Virtualization", "Networking", "Monitoring", "Disaster Recovery"]
 +++
 
 # Enterprise IT Infrastructure Upgrade
@@ -26,7 +26,7 @@ Key improvements included:
 
 ## Key Technologies
 
-`Synology NAS` `Active Directory` `Windows Server` `SUSE Linux` `VMware ESXi` `Networking` `Monitoring` `Backup` `Disaster Recovery`
+`Synology NAS` `Active Directory` `Windows Server` `SUSE Linux` `VMware ESXi` `Networking` `Zabbix Monitoring` `Backup` `Disaster Recovery`
 
 ## Outcomess
 
