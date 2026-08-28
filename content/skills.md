@@ -32,7 +32,7 @@ Implementing monitoring and observability platforms for infrastructure health, r
 
 Managing enterprise network services and connectivity across server, virtualization, storage, and distributed infrastructure environments.
 
-### Security, HA & Resilience
+### - Security, HA & Resilience
 `System Hardening` `Patch Management` `Access Control` `High Availability` `Backup & Recovery` `Disaster Recovery` `ISO 27001`
 
 Applying infrastructure security, hardening, high-availability, backup, and disaster-recovery practices to improve resilience and operational continuity.
