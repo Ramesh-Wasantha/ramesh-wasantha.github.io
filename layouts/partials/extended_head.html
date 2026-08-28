@@ -1,3 +1,11 @@
+<!-- Custom page titles -->
+{{ if .IsHome }}
+<title>Ramesh Wasantha | System Engineer</title>
+{{ else }}
+<title>{{ .Title }} | Ramesh Wasantha</title>
+{{ end }}
+
+<!-- Custom favicon -->
 <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
